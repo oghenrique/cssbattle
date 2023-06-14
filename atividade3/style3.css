@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0B2429;
+    place-items: center;
+    height: 100vh;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}

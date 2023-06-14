@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* aqui utlizei o seletor universal para dar um reset na página */
+
+body{
+    background-color: #62374e;
+    place-items: center;
+    height: 100vh;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+
+/* Primeiramente eu defini a cor do background. Depois usei o "place-items" para colocar os elementos no centro da div. Defini a altura que ia ser usada no site. Usei o padding para define a distância  dos quadrados até a borda. Usei o "grid-template-columns" para deixar a página em colunas. Por último usei o display grid para posicionar os elementos um do lado do outro. */
+
+.forma1{
+    width: 130px;
+    height: 130px;
+    background: #fdc57b;
+}
+
+/* utilizei o width e o height para formar o primeiro quadrado, depois defini a cor da forma */
+
+.forma2{
+    width: 130px;
+    height: 130px;
+    background: #fdc57b;
+}
+
+/* utilizei o width e o height para formar o segundo quadrado, depois defini a cor da forma */
+
+.forma3{
+    width: 130px;
+    height: 130px;
+    background: #fdc57b;
+}
+
+/* utilizei o width e o height para formar o terceiro quadrado, depois defini a cor da forma */
+
+.forma4{
+    width: 130px;
+    height: 130px;
+    background: #fdc57b;
+}
+
+/* utilizei o width e o height para formar o quarto quadrado, depois defini a cor da forma */

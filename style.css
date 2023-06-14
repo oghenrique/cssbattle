@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: blue;
+}
+
+.atividades{
+    font-size: 80px;
+    
+}
