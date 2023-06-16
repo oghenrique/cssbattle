@@ -12,3 +12,15 @@ body{
     grid-template-columns: 1fr 1fr;
     display: grid;
 }
+
+.limao{
+    width: 150px;
+    height: 150px;
+    background-color: #F3AC3C;
+    position: fixed;
+    right: 75;
+    top: 75;
+    border-radius: 100px 0;
+    box-shadow: -50px 0 #998235, -100px 0 #1A4341;
+
+}
