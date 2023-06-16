@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Usei o seletor universal para dar um reset na página*/
+
 body{
     background-color: #0B2429;
     place-items: center;
@@ -12,6 +14,8 @@ body{
     grid-template-columns: 1fr 1fr;
     display: grid;
 }
+
+/* Primeiramente eu defini a cor do background. Depois usei o "place-items" para colocar os elementos no centro da div. Defini a altura que ia ser usada no site. Usei o padding para define a distância  dos quadrados até a borda. Usei o "grid-template-columns" para deixar a página em colunas. Por último usei o display grid para posicionar os elementos um do lado do outro.*/
 
 .limao{
     width: 150px;
@@ -24,3 +28,4 @@ body{
     box-shadow: -50px 0 #998235, -100px 0 #1A4341;
 
 }
+/* Usei o width e o height para definir a altura e a largura do site.  Depois com o background defini a cor do “limão”.  Usei essa propriedade para definir a posição do elemento e deixá-la fixa. Usei o right e o top para definir a distância do elemento em relação à borda direita e à borda de cima. Depois defini o raio dos cantos do elemento, o que fará uma forma mais arredondada. Depois com o “box-shadow” criei uma sombra ao redor do elemento e depois defini as sombras com as cores que foram solicitadas. */
